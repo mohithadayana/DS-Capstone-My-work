@@ -1,0 +1,21 @@
+Implementation of CNN for the audio part in the EmotiSense project involves the following steps:
+
+1. Data Preprocessing:Audio data is preprocessed, which may include resampling, normalization, and converting the audio signals into a suitable format for input into the CNN model.
+
+2. Feature Extraction:Features are extracted from the audio data to represent important characteristics that can be used for emotion detection. Commonly used features include Mel-frequency cepstral coefficients (MFCCs) or spectrograms.
+
+3. Model Architecture: The CNN architecture is designed to process the extracted audio features. It typically consists of convolutional layers followed by pooling layers to extract relevant features and reduce dimensionality. The final layers may include fully connected layers and output layers for emotion classification.
+
+4. Training: The CNN model is trained using labeled audio data, where each audio sample is associated with a specific emotion label. During training, the model learns to map the input audio features to the corresponding emotion labels using techniques like gradient descent and backpropagation.
+
+5. Evaluation: The trained CNN model is evaluated on a separate dataset to assess its performance in emotion detection. Evaluation metrics such as accuracy, precision, recall, and F1-score are commonly used to measure the model's effectiveness in classifying emotions from audio data.
+
+Results of implementing and training CNN for the audio part in the EmotiSense project includes:
+
+Accuracy:The accuracy of the CNN model in correctly classifying emotions from audio data.
+Confusion Matrix: A confusion matrix showing the distribution of predicted and actual emotion labels, highlighting any misclassifications.
+Training Loss: The decrease in training loss over epochs, indicating the convergence of the model during training.
+Validation Loss: The validation loss, indicating the generalization performance of the model on unseen data.
+Performance Comparison:Comparison of the CNN model's performance with other models or baselines used in the EmotiSense project, such as LSTM or Transformer models for text and image modalities.
+
+On concluding, the implementation and training of CNN for the audio part in the EmotiSense project aim to accurately detect emotions from audio data, contributing to the multi-modal emotion detection system's effectiveness and comprehensiveness.
