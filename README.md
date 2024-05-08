@@ -1,17 +1,25 @@
-My contributions to the project since last assignment submission
-•	Text Data Contribution
-•	Semantic Analysis
-•	Language Models Integration
-•	Leveraging FastAPI's efficient framework, I developed robust connections between FastAPI and MongoDB, enabling seamless interaction between the web application and the database.
-•	Through diligent implementation, I ensured that data retrieval, storage, and manipulation processes between FastAPI and MongoDB were optimized for performance and reliability, adhering to best practices in both web development and database management.
-•	Additionally, I integrated FastAPI with Streamlit, enriching the user experience by enabling real-time data visualization and interaction through intuitive web interfaces.
-•	By combining the strengths of FastAPI's asynchronous capabilities with Streamlit's dynamic frontend functionalities, I crafted a comprehensive solution that empowers users to interact with data stored in MongoDB through a user-friendly interface, enhancing the overall usability and functionality of the application.
-•	Also we successfully completed the establishment of connections between the whole triangle model with our teamwork.
-•	As a part of this assignment, I did the technical report for the Project.
-•	As a part of this assignment, I did the summary report for the Project.
+OUR PROJECT ---------EMOTISENSE---------
 
-Project milestones, challenges, and next steps
+Introduction:
 
-We have set up the database. Tested the wav2vec model to run in python. Set up the connections from the database to Streamlit to the Wav2vec , thus completing the triangle model for our project.
-Challenges until now was database set up and model implementation through python, which took a lot of time and were finally managed.
-Next steps will be to integrate LLaMA and LLaVA in the project by implementing them through python code. And start fine-tuning the models with our datasets.
+EmotiSense is a groundbreaking multimodal emotion detection system designed to provide a comprehensive understanding of human emotions in digital interactions. Leveraging the power of Large Language Models (LLMs) such as BERT, Wav2vec, and LLaVa, EmotiSense integrates textual, auditory, and visual data modalities to transcend the limitations of traditional unimodal approaches.
+
+My Contributions:
+
+Audio Analysis: spearheaded the audio analysis component, ensuring accurate emotion detection by leveraging Wav2vec for processing speech patterns and tonality.
+FastAPI Backend: engineered the FastAPI backend for seamless data processing, enabling efficient communication between the frontend and the data processing modules.
+Streamlit Integration: facilitated integration with Streamlit for user-friendly visualization and interaction, enhancing the accessibility and usability of EmotiSense.
+
+Technologies Used:
+
+BERT: Primarily utilized for textual data analysis, BERT enhances EmotiSense's ability to understand textual cues indicative of emotional states.
+Wav2vec: Crucial for audio data analysis, Wav2vec processes speech patterns and tonality to extract auditory cues related to emotions.
+LLaVa: Primarily used for visual data analysis and image processing, LLaVa contributes to EmotiSense's ability to analyze facial expressions and visual cues associated with emotions.
+
+
+Usage:
+
+Textual Analysis: Input text data into the provided interface to analyze textual cues indicative of emotional states using BERT.
+Audio Analysis: Upload audio files to the interface to analyze speech patterns and tonality using Wav2vec.
+Visual Analysis: Provide image data to analyze facial expressions and visual cues associated with emotions using LLaVa.
+
